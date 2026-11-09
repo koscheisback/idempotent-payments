@@ -7,7 +7,7 @@ from app.config import Settings
 from app.gateway import SimulatedGateway
 from app.main import create_app
 from app.models import PaymentRecord
-
+ 
 
 class CountingGateway(SimulatedGateway):
     """Counts (and optionally slows) gateway calls to prove no double charge."""
